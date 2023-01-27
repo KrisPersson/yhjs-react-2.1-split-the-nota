@@ -1,11 +1,11 @@
 import "./Input.css"
 
-function Input({ header, name }) {
+function Input({ header, name, handleChange }) {
 
     return (
-        <section>
+        <section className="input-wrapper">
             <h2>{ header }</h2>
-            <input type="text" name={ name } id="" value="0" />
+            <input onChange={ handleChange } type="number" name={ name } id=""  />
 
         </section>
     )

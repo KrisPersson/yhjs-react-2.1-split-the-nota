@@ -2,7 +2,6 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
 }
 
 .logo {
@@ -38,4 +37,28 @@
 
 .read-the-docs {
   color: #888;
+}
+
+form {
+  width: 280px;
+  height: 25rem;
+  border: 3px solid rgb(67,52,134);
+  padding: 3rem;
+  border-radius: 6px;
+  box-shadow: -10px 8px rgb(93 42 219 / 0.2);
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.App button {
+  width: 100%;
+  height: 5rem;;
+  background: rgb(67,52,134);
+  color: #fff;
+  font-size: 1.5rem;;
+  border-radius: 0;
+  box-shadow: -6px 6px rgb(93 42 219 / 0.2);
+
 }
